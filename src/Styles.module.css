@@ -1,0 +1,19 @@
+.test{
+    color: lightpink;
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+.active{
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.passive{
+    font-size: 0.5em;
+    text-transform: lowercase;
+    font-weight: normal;
+
+}

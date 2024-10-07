@@ -6,6 +6,9 @@ import Flow from './Flow';
 import Login from './Login';
 import Menu from './Menu';
 import MyComponent from './MyComponent';
+import Events from './Events';
+import Styles from './Styles';
+import Refs from './Refs';
 
 
 function App() {
@@ -13,13 +16,9 @@ function App() {
     <>
     <div class={styles.App}>Dobar dan, svijete!
     </div>
-    <MyComponent />
-    <Counter />
-    <Counter2 />
-    <Login />
-    <Flow />
-    <Menu />
-    <Dynamo />
+    <Events />
+    <Styles />
+    <Refs />
     </>
     
   );
