@@ -9,6 +9,8 @@ import MyComponent from './MyComponent';
 import Events from './Events';
 import Styles from './Styles';
 import Refs from './Refs';
+import Spreads from './Spreads';
+import Pvp from './Pvp';
 
 
 function App() {
@@ -16,9 +18,8 @@ function App() {
     <>
     <div class={styles.App}>Dobar dan, svijete!
     </div>
-    <Events />
-    <Styles />
-    <Refs />
+    <Spreads />
+    <Pvp />
     </>
     
   );
